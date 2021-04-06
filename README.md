@@ -18,6 +18,6 @@ Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which ca
   - Pooling layers : used to decrease the spatial size of the convolved feature, in order to reduce the required computational power to process the data. It is useful to extract dominant features. There are two types of Pooling: Max Pooling and Average Pooling. Max Pooling returns the maximum value from the portion of the image covered by the Kernel. Average Pooling returns the average of all the values from the portion of the image covered by the Kernel.
   - Normalization :  Rectified Linear Units (RelUs) : change every thing negative to zero (a stack of images becomes a stack of images with no negative values)
 
-the convolution and pooling layers  form one layers of a CNN. Depending on the complexities in the images, we can add more layers for capturing low-level details even further, but at the cost of more computational power.
+The convolution and pooling layers  form one layers of a CNN. Depending on the complexities in the images, we can add more layers for capturing low-level details even further, but at the cost of more computational power.
 
 This layers enable the model to understand the features. The last step is to flatten the final output and feed it to a regular Neural Network for classification purposes.
