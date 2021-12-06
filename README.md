@@ -5,18 +5,19 @@ In this project we are going to develop a Convolutional Neural Network (CNN) mod
 
   - Develop Model Improvements
   - Use Tensordoard to analyze results and compare different models
-### Training a Keras Sequential model with X and y as a numpy array (val_accuracy: 0.87)
+### Training a Keras Sequential model with X and y as a numpy array
   - Load and prepare photos of dogs and cats for modeling
-  - Develop a basic convolutional neural network for photo classification 
-### Training with a Functional Keras API (model: VGG16) (val_accuracy: 0.91)
+  - Develop a basic convolutional neural network for photo classification
+  - val_accuracy: 0.87 
+### Training with a Functional Keras API (model: VGG16) ()
   - Transfer Learning
-  - Use the VG16 model without the tops layers (include_top=False) 
+  - Use the VG16 model without the tops layers (include_top=False)
+  - val_accuracy: 0.91 
 ### VGG16 with all layers
   - Transfer Learning
 ### Training with a Functional Keras API (model: Mobilenet) ()
   - Transfer Learning
   - val_accuracy: 0.9750
-
 ## Data :
 Link : https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
 
