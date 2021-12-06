@@ -14,8 +14,8 @@ In this project we are going to develop a Convolutional Neural Network (CNN) mod
 ### VGG16 with all layers
   - Transfer Learning
 ### Training with a Functional Keras API (model: Mobilenet) ()
-  -Transfer Learning
-  -val_accuracy: 0.9750
+  - Transfer Learning
+  - val_accuracy: 0.9750
 
 ## Data :
 Link : https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
